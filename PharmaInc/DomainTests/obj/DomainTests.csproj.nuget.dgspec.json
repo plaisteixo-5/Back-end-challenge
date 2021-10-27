@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/DomainTests.csproj": {}
+  },
+  "projects": {
+    "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/Domain.csproj",
+        "packagesPath": "/home/felipefon/.nuget/packages/",
+        "outputPath": "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipefon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/DomainTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/DomainTests.csproj",
+        "projectName": "DomainTests",
+        "projectPath": "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/DomainTests.csproj",
+        "packagesPath": "/home/felipefon/.nuget/packages/",
+        "outputPath": "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipefon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/Domain.csproj": {
+                "projectPath": "/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
