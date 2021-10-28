@@ -29,7 +29,7 @@ namespace Domain.Entities
             Registered = registered;
             Phone = phone;
             Cell = cell;
-            Id = id;
+            IdUser = id;
             Picture = picture;
             Nat = nat;
         }
@@ -43,7 +43,7 @@ namespace Domain.Entities
         public Registered Registered { get; private set; }
         public string Phone { get; private set; }
         public string Cell { get; private set; }
-        public Id Id { get; set; }
+        public Id IdUser { get; set; }
         public Picture Picture { get; private set; }
         public string Nat { get; private set; }
     }
