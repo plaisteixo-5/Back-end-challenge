@@ -1,11 +1,24 @@
+using Domain.ValueObjects;
 using DomainShared.Entities;
 
 namespace Domain.Entities
 {
     public class User : Entity
     {
-        public User(string gender, Name name, Location location, string email, Login login, Dob dob, Registered registered, string phone, string cell, Id id, Picture picture, Naturality nat)
-        : base(id.name, id.value)
+        public User(
+            string gender,
+            Name name,
+            Location location,
+            string email,
+            Login login,
+            Dob dob,
+            Registered registered,
+            string phone,
+            string cell,
+            Id id,
+            Picture picture,
+            string nat
+        )
         {
             Gender = gender;
             Name = name;
@@ -16,20 +29,22 @@ namespace Domain.Entities
             Registered = registered;
             Phone = phone;
             Cell = cell;
+            Id = id;
             Picture = picture;
             Nat = nat;
         }
 
-        public string Gender { get; set; }
-        public Name Name { get; set; }
-        public Location Location { get; set; }
-        public string Email { get; set; }
-        public Login Login { get; set; }
-        public Dob Dob { get; set; }
-        public Registered Registered { get; set; }
-        public string Phone { get; set; }
-        public string Cell { get; set; }
-        public Picture Picture { get; set; }
-        public Naturality Nat { get; set; }
+        public string Gender { get; private set; }
+        public Name Name { get; private set; }
+        public Location Location { get; private set; }
+        public string Email { get; private set; }
+        public Login Login { get; private set; }
+        public Dob Dob { get; private set; }
+        public Registered Registered { get; private set; }
+        public string Phone { get; private set; }
+        public string Cell { get; private set; }
+        public Id Id { get; set; }
+        public Picture Picture { get; private set; }
+        public string Nat { get; private set; }
     }
 }
