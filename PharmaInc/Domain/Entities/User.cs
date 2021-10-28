@@ -47,5 +47,21 @@ namespace Domain.Entities
         public Id IdUser { get; set; }
         public Picture Picture { get; private set; }
         public string Nat { get; private set; }
+
+        public void UpdateUser(User user)
+        {
+            Gender = (user.Gender != null && user.Gender != "") ? user.Gender : Gender;
+            Name = (user.Name != null) ? user.Name : Name;
+            Location = (user.Location != null) ? user.Location : Location;
+            Email = (user.Email != null && user.Gender != "") ? user.Email : Email;
+            Login = (user.Login != null) ? user.Login : Login;
+            Dob = (user.Dob != null) ? user.Dob : Dob;
+            Registered = (user.Registered != null) ? user.Registered : Registered;
+            Phone = (user.Phone != null) ? user.Phone : Phone;
+            Cell = (user.Cell != null) ? user.Cell : Cell;
+            IdUser = (user.IdUser != null) ? user.IdUser : IdUser;
+            Picture = (user.Picture != null) ? user.Picture : Picture;
+            Nat = (user.Nat != null) ? user.Nat : Nat;
+        }
     }
 }
