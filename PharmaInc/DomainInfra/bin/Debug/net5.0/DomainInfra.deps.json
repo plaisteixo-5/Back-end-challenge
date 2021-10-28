@@ -15,8 +15,16 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "DomainShared": "1.0.0"
+        },
         "runtime": {
           "Domain.dll": {}
+        }
+      },
+      "DomainShared/1.0.0": {
+        "runtime": {
+          "DomainShared.dll": {}
         }
       }
     }
@@ -28,6 +36,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomainShared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
