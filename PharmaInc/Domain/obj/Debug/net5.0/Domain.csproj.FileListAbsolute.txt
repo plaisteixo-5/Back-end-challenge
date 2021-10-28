@@ -10,3 +10,6 @@
 /home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/obj/Debug/net5.0/Domain.dll
 /home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/obj/Debug/net5.0/ref/Domain.dll
 /home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/obj/Debug/net5.0/Domain.pdb
+/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/bin/Debug/net5.0/DomainShared.dll
+/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/bin/Debug/net5.0/DomainShared.pdb
+/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/Domain/obj/Debug/net5.0/Domain.csproj.CopyComplete
