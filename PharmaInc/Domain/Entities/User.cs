@@ -34,7 +34,6 @@ namespace Domain.Entities
             Picture = picture;
             Nat = nat;
 
-
             AddNotifications(new ValidationContract()
                 .Requires()
                 .HasMinLen(Gender, 3, "Gender", "O genero informado tem que ter mais de 3 caracteres.")
