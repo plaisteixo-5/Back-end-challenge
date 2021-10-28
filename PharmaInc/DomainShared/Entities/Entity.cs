@@ -3,7 +3,7 @@ using FluentValidator;
 
 namespace DomainShared.Entities
 {
-    public class Entity : Notifiable
+    public class Entity
     {
         public Entity()
         {

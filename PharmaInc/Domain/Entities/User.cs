@@ -33,11 +33,6 @@ namespace Domain.Entities
             IdUser = id;
             Picture = picture;
             Nat = nat;
-
-            AddNotifications(new ValidationContract()
-                .Requires()
-                .HasMinLen(Gender, 3, "Gender", "O genero informado tem que ter mais de 3 caracteres.")
-                .IsEmail(Email, "Email", "O email não é válido!"));
         }
 
         public string Gender { get; private set; }
