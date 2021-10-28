@@ -99,3 +99,5 @@
 /home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/bin/Debug/net5.0/CoverletSourceRootsMapping
 /home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/bin/Debug/net5.0/Domain.dll
 /home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/bin/Debug/net5.0/Domain.pdb
+/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/bin/Debug/net5.0/DomainShared.dll
+/home/felipefon/Desktop/Meus Projetos/Ambiente de Aprendizado/Back-end-challenge/PharmaInc/DomainTests/bin/Debug/net5.0/DomainShared.pdb
