@@ -387,6 +387,9 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "DomainShared": "1.0.0"
+        },
         "runtime": {
           "Domain.dll": {}
         },
@@ -403,6 +406,14 @@
         },
         "compile": {
           "DomainInfra.dll": {}
+        }
+      },
+      "DomainShared/1.0.0": {
+        "runtime": {
+          "DomainShared.dll": {}
+        },
+        "compile": {
+          "DomainShared.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2159,6 +2170,11 @@
       "sha512": ""
     },
     "DomainInfra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomainShared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -79,6 +79,9 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DomainShared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -97,6 +100,16 @@
         },
         "runtime": {
           "bin/placeholder/DomainInfra.dll": {}
+        }
+      },
+      "DomainShared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DomainShared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomainShared.dll": {}
         }
       }
     }
@@ -218,6 +231,11 @@
       "type": "project",
       "path": "../DomainInfra/DomainInfra.csproj",
       "msbuildProject": "../DomainInfra/DomainInfra.csproj"
+    },
+    "DomainShared/1.0.0": {
+      "type": "project",
+      "path": "../DomainShared/DomainShared.csproj",
+      "msbuildProject": "../DomainShared/DomainShared.csproj"
     }
   },
   "projectFileDependencyGroups": {
