@@ -1,8 +1,9 @@
 using System;
+using FluentValidator;
 
 namespace DomainShared.Entities
 {
-    public class Entity
+    public class Entity : Notifiable
     {
         public Entity()
         {
