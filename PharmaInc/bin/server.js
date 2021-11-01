@@ -1,15 +1,17 @@
 const http = require('http');
 const debug = require('debug')('nodestr:server');
 const app = require('../src/app');
+const CronUpdater = require('../src/services/cron-update');
 
 const port = normalizePort(process.env.PORT || '3000');
+
 app.set('port', port);
+
+CronUpdater();
 
 const server = http.createServer(app);
 
 server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
 
 function normalizePort(val) {
     const port = parseInt(val, 10);
