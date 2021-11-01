@@ -6,7 +6,7 @@ exports.getAll = async (req, res, next) => {
         res.status(200).send(data);
     } catch (err) {
         res.status(500).send({
-            message: "Falha ao processar a requisição!"
+            message: 'Falha ao processar a requisição!'
         });
     }
 };
@@ -17,29 +17,40 @@ exports.getById = async (req, res, next) => {
         res.status(200).send(response);
     } catch (err) {
         res.status(500).send({
-            message: "Falha ao processar a requisição!"
+            message: 'Falha ao processar a requisição!'
         });
     }
 };
 
 exports.create = async (req, res, next) => {
     try {
-        var data = await repository.create(req.body);
-        res.status(200).send(data);
+        let response = await repository.create(req.body);
+        res.status(200).send(response);
     } catch (err) {
         res.status(500).send({
-            message: "Falha ao processar a requisição!"
+            message: 'Falha ao processar a requisição!'
         });
     }
 };
 
+exports.updateDatabase = async (req, res, next) => {
+    try {
+        repository.create(req.body.results[0]);
+
+        console.log('Usuário adicionado com sucesso!');
+    } catch (err) {
+        console.log('Falha ao processar a requisição!');
+    }
+}
+
 exports.delete = async (req, res, next) => {
     try {
-        var data = await repository.delete(req.params.id);
-        res.status(200).send(data);
+        let response = await repository.delete(req.params.id);
+
+        res.status(200).send(response);
     } catch (err) {
         res.status(500).send({
-            message: "Falha ao processar a requisição!"
+            message: 'Falha ao processar a requisição!'
         });
     }
 };
