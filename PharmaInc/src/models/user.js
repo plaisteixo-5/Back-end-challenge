@@ -9,7 +9,10 @@ const schema = new Schema({
         last: String,
     },
     location: {
-        street: String,
+        street: {
+            number: Number,
+            name: String
+        },
         city: String,
         state: String,
         postcode: Number,
