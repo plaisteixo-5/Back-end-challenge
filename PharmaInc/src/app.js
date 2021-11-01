@@ -1,10 +1,23 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const config = require('./config');
+require('dotenv').config();
 
 const app = express();
 
-mongoose.connect(config.connectionString);
+const {
+    DB_USER,
+    DB_PASS,
+    DB_HOST,
+    DB_PORT,
+    DB_NAME
+} = process.env
+
+mongoose.connect(
+    `mongodb://${DB_USER}:${DB_PASS}@${DB_HOST}:${DB_PORT}/${DB_NAME}?authSource=admin`, {
+        useNewUrlParser: true,
+    }
+)
 
 const User = require('./models/user');
 
