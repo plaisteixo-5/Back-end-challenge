@@ -16,7 +16,11 @@ exports.getById = async (id) => {
 };
 
 exports.create = async (data) => {
+
+
+    console.log(data);
     var user = new User(data);
+    console.log(user);
 
     const response = await user.save();
 
